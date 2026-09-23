@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <title>Flexer Privacy Notice</title>
+</head>
+<body>
+  <header class="brand">
+    <p class="wordmark">Flexer</p>
+  </header>
+  <main class="sheet">
 <style>
   [data-custom-class='body'], [data-custom-class='body'] * {
           background: transparent !important;
@@ -54,3 +67,241 @@ word-break: break-word !important;
       <div style="color: #595959;font-size: 14px;font-family: Arial;padding-top:16px;">
       This privacy policy was created using Termly's <a style="color: rgb(48, 48, 241) !important;" href="https://termly.io/products/privacy-policy-generator">Privacy Policy Generator</a>.
       </div>
+
+  </main>
+  <style>
+
+:root {
+  color-scheme: light dark;
+  --bg: #F6F6FA;
+  --surface: #FFFFFF;
+  --text: #1A1F2F;
+  --muted: #6A7288;
+  --border: #D9DCE8;
+  --divider: #E4E7F2;
+  --accent: #BB86FC;
+  --link: #6A35B0;
+  --raised: #EDEEFA;
+  --header: #1A1F2F;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --surface: #222222;
+    --text: #F4F4F6;
+    --muted: #B0B3C0;
+    --border: #3A3A3A;
+    --divider: #2A2A2A;
+    --accent: #BB86FC;
+    --link: #BB86FC;
+    --raised: #272727;
+    --header: #FFFFFF;
+  }
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Roboto, "Segoe UI", system-ui, sans-serif;
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+}
+.brand {
+  padding: calc(20px + env(safe-area-inset-top)) 20px 0;
+}
+.wordmark {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  max-width: 720px;
+  font-family: Futura, "Trebuchet MS", "Segoe UI", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.04em;
+  color: var(--header);
+}
+.wordmark::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--accent);
+  flex: none;
+}
+.sheet {
+  max-width: 720px;
+  margin: 16px auto calc(32px + env(safe-area-inset-bottom));
+  padding: 8px 20px 28px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+}
+@media (max-width: 760px) {
+  .sheet {
+    margin: 12px 12px calc(24px + env(safe-area-inset-bottom));
+    padding: 4px 16px 24px;
+    border-radius: 16px;
+  }
+}
+[data-custom-class='body'],
+[data-custom-class='body'] * {
+  font-family: Roboto, "Segoe UI", system-ui, sans-serif !important;
+  background: transparent !important;
+}
+[data-custom-class='body'] {
+  background: transparent !important;
+  color: var(--text) !important;
+}
+[data-custom-class='body'] div {
+  line-height: 1.65 !important;
+}
+[data-custom-class='body'] > div:has(> br:only-child) {
+  display: none;
+}
+[data-custom-class='title'],
+[data-custom-class='title'] * {
+  color: var(--header) !important;
+  font-size: 28px !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+  letter-spacing: -0.02em;
+}
+[data-custom-class='title'] {
+  display: block;
+  margin: 20px 0 4px;
+}
+[data-custom-class='subtitle'],
+[data-custom-class='subtitle'] * {
+  color: var(--muted) !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+[data-custom-class='subtitle'] {
+  display: block;
+  margin-bottom: 8px;
+}
+[data-custom-class='heading_1'],
+[data-custom-class='heading_1'] * {
+  color: var(--header) !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  line-height: 1.35 !important;
+}
+[data-custom-class='heading_1'] {
+  display: block;
+  margin: 28px 0 10px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--accent);
+}
+[data-custom-class='heading_2'],
+[data-custom-class='heading_2'] * {
+  color: var(--header) !important;
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  line-height: 1.4 !important;
+}
+[data-custom-class='heading_2'] {
+  display: block;
+  margin: 20px 0 8px;
+}
+[data-custom-class='body_text'],
+[data-custom-class='body_text'] * {
+  color: var(--text) !important;
+  font-size: 16px !important;
+  line-height: 1.65 !important;
+}
+[data-custom-class='link'],
+[data-custom-class='link'] *,
+.sheet a,
+.sheet a * {
+  color: var(--link) !important;
+  font-size: 16px !important;
+  word-break: break-word !important;
+  overflow-wrap: anywhere !important;
+}
+.sheet a {
+  text-underline-offset: 3px;
+}
+.sheet a[href^="#"] {
+  display: inline-block;
+  padding: 8px 0;
+  text-decoration-thickness: 1px;
+}
+[id] { scroll-margin-top: 16px; }
+ul, ol {
+  margin: 8px 0 16px;
+  padding-left: 1.25rem;
+}
+ul { list-style-type: disc !important; }
+ul > li > ul { list-style-type: circle !important; }
+li {
+  margin: 6px 0;
+  color: var(--text) !important;
+  font-size: 16px !important;
+  font-family: Roboto, "Segoe UI", system-ui, sans-serif !important;
+}
+table {
+  width: 100% !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+  margin: 16px 0 8px;
+}
+td {
+  border: 1px solid var(--border) !important;
+  padding: 10px 12px !important;
+  vertical-align: top !important;
+  color: var(--text) !important;
+}
+tr:first-child td {
+  background: var(--raised) !important;
+}
+.sheet > div:last-child {
+  margin-top: 28px;
+  padding-top: 16px;
+  border-top: 1px solid var(--divider);
+  color: var(--muted) !important;
+  font-size: 13px !important;
+}
+@media (max-width: 640px) {
+  table, tbody, tr, td {
+    display: block !important;
+    width: 100% !important;
+  }
+  tr:first-child { display: none !important; }
+  tr {
+    margin: 0 0 12px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--raised);
+  }
+  td {
+    border: none !important;
+    border-bottom: 1px solid var(--divider) !important;
+    text-align: left !important;
+    background: transparent !important;
+  }
+  tr td:last-child { border-bottom: none !important; }
+  tr td:nth-child(1)::before,
+  tr td:nth-child(2)::before,
+  tr td:nth-child(3)::before {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 12px !important;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--muted) !important;
+  }
+  tr td:nth-child(1)::before { content: "Category"; }
+  tr td:nth-child(2)::before { content: "Examples"; }
+  tr td:nth-child(3)::before { content: "Collected"; }
+}
+
+  </style>
+</body>
+</html>
